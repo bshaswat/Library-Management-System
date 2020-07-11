@@ -66,6 +66,18 @@ int menu() {
   return choice;
 }
 
+void create_student(){
+    clrscr();
+    cout<<"\nNEW STUDENT ENTRY...\n";
+    cout<<"\nEnter Admission number : ";
+    cin>>admno;
+    cout << "\n\nEnter Name of Student : ";
+    gets(name);
+    token = 0;
+    stbno[0] = '/0';
+    cout<<"\n\nStudent Record Created..";
+}
+
 void checkBook() {
 }
 
