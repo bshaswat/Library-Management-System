@@ -78,6 +78,16 @@ void create_student(){
     cout<<"\n\nStudent Record Created..";
 }
 
+void show_student()
+  {
+      cout<<"\nAdmission no. : "<<admno;
+      cout<<"\nStudent Name : ";
+      puts(name);
+      cout<<"\nNo of Book issued : "<<token;
+      if(token==1)
+          cout<<"\nBook No "<<stbno;
+  }
+
 void checkBook() {
 }
 
