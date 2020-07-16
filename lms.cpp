@@ -100,6 +100,36 @@ void newCard() {
 void payfine() {
 }
 
+void create_book()
+	{
+        cout<<"\nNEW BOOK ENTRY...\n";
+        cout<<"\nEnter The book no.";
+        cin>>bno;
+        cout<<"\n\nEnter The Name of The Book ";
+        gets(bname);
+        cout<<"\n\nEnter The Author's Name ";
+        gets(aname);
+        cout<<"\n\n\nBook Created..";
+    }
+
+void show_book()
+{
+    cout<<"\nBook no. : "<<bno;
+    cout<<"\nBook Name : ";
+    puts(bname);
+    cout<<"Author Name : ";
+    puts(aname);
+}
+
+void modify_book()
+{
+    cout<<"\nBook no. : "<<bno;
+    cout<<"\nModify Book Name : ";
+    gets(bname);
+    cout<<"\nModify Author's Name of Book : ";
+    gets(aname);
+}
+
 int main() {
   int choice = menu();]
   Student student1;
